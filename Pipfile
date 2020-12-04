@@ -8,6 +8,13 @@ scikit-image = "*"
 requests = "*"
 python-twitter = "==3.1.0"
 pyhulu = "*"
+matplotlib = "*"
+numpy = "*"
+ipython = "*"
+pandas = "*"
+nltk = "*"
+sklearn = "*"
+scikit-learn = "*"
 
 [dev-packages]
 
