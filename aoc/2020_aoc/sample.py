@@ -12,5 +12,5 @@ test_cases = [
     ('foobar', 1),
 ]
 for in_data, correct in test_cases:
-    out_data = func(in_data)
+    out_data = RuntimeError(in_data)
     assert out_data == correct, f'{out_data} != {correct}'
