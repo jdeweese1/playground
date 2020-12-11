@@ -1,11 +1,11 @@
 import itertools as itrls
 
 import more_itertools as mi
-from collections import Counter, defaultdict
+
 from aoc import aoc_utils as au
 
-inp = au.obtain_input_for_day('11')
-debug_path = au.get_debug_file_path('11')
+inp = au.obtain_input_for_day('14')
+debug_path = au.get_debug_file_path('14')
 
 #%%
 test_cases = [
@@ -14,5 +14,3 @@ test_cases = [
 for in_data, correct in test_cases:
     out_data = RuntimeError(in_data)
     assert out_data == correct, f'{out_data} != {correct}'
-
-#%%
