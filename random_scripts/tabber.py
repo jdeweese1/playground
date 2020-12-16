@@ -17,12 +17,12 @@ class Tabber:
     def __str__(self):
         return self.__tab_level * '\t'
 
+if __name__ == '__main__':
+    t = Tabber()
 
-t = Tabber()
-
-print(f'Hi i am jarod')
-print(f'{t.entab()}i enjoy pizza')
-print(f'{t.entab()}i like cheese')
-print(f'{t}i like crust')
-print(f'{t.detab()} thank you for listening')
-print(repr(t))
+    print(f'Hi i am jarod')
+    print(f'{t.entab()}i enjoy pizza')
+    print(f'{t.entab()}i like cheese')
+    print(f'{t}i like crust')
+    print(f'{t.detab()} thank you for listening')
+    print(repr(t))
